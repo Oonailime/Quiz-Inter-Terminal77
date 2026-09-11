@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Executar Terminal 77",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/run-terminal.mjs",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"],
+      "env": {
+        "FORUM_HANDLE": "@seu.usuario",
+        "HEADLESS": "1",
+        "SLOW_MO_MS": "0",
+        "KEEP_OPEN_MS": "0"
+      }
+    },
+    {
+      "name": "Inspecionar Terminal 77 (não inicia)",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/inspect-terminal.mjs",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

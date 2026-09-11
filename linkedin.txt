@@ -1,0 +1,52 @@
+Recentemente, tive a oportunidade de participar do Quiz do Inter, desafio
+promovido durante a DCC Week 2026, evento da Universidade Federal de Minas
+Gerais (UFMG).
+
+Para o desafio, desenvolvi um RPA utilizando Node.js e Playwright. A solução
+precisava interpretar diferentes tipos de questões, validar o conteúdo
+apresentado, calcular respostas personalizadas e interagir com a página com a
+menor latência possível.
+
+O resultado foi a conclusão das 10 questões em aproximadamente 1 segundo,
+com 3.000/3.000 pontos e o primeiro lugar no ranking. 🚀
+
+Mais importante do que o resultado foi tudo o que aprendi durante o processo.
+Testei diferentes hipóteses, medi gargalos e descartei abordagens que não
+agregavam ao resultado final. Percebi, na prática, que uma automação eficiente
+não depende apenas de velocidade: ela também precisa ser previsível e bem
+testada.
+
+Entre os principais aprendizados, destaco a importância de separar e integrar
+as fases de planejamento, decisão e execução. Como só havia uma tentativa por
+conta do Inter, precisei planejar cuidadosamente a execução antes mesmo de
+iniciá-la.
+
+Minha primeira ideia foi extrair automaticamente as perguntas do site,
+enviá-las ao Codex Luna, fazer o modelo retornar uma string compatível com a
+resposta esperada e então enviar esse resultado de volta ao site. Nos testes,
+essa abordagem não funcionou bem: a automação levava mais de dois minutos para
+terminar.
+
+Voltei à fase de planejamento e, com o auxílio da IA, percebi que o bundle
+JavaScript público do site já continha a lógica necessária para calcular as
+respostas. A partir dessa descoberta, fui capaz de construir o RPA vencedor,
+que calculava tudo localmente em menos de um segundo.
+
+O desafio também me proporcionou a oportunidade de visitar o Banco Inter e
+conhecer de perto o ambiente de uma das principais empresas de tecnologia
+financeira do país. Essa experiência tornou toda a jornada ainda mais especial
+e reforçou minha vontade de continuar criando, experimentando e resolvendo
+problemas com tecnologia.
+
+Agradeço muito ao Inter por ter me proporcionado esse momento. Esse cuidado e
+esse carinho aumentaram ainda mais minha admiração pela empresa e pelas pessoas
+que fazem parte dela!
+
+Também agradeço à UFMG, aos amigos e colegas que conheci nesse processo e a
+todos os envolvidos na DCC Week 2026 pela experiência e pela oportunidade.
+
+O código e a documentação do projeto estão disponíveis aqui:
+[link do repositório]
+
+#BancoInter #QuizDoInter #DCCWeek2026 #UFMG #RPA #Automação #Playwright
+#NodeJS #Tecnologia #DesenvolvimentoDeSoftware #Inovação

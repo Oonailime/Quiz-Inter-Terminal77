@@ -1,0 +1,36 @@
+# Dependências e binários locais
+node_modules/
+.playwright-libs/
+
+# Sessões, cookies e dados de autenticação do navegador
+.browser-profile*/
+playwright/.auth/
+storage-state*.json
+
+# Variáveis locais e credenciais
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Configurações locais de ferramentas de assistência
+/.agents/
+/.codex/
+
+# Artefatos gerados durante execução e diagnóstico
+quiz-*.png
+terminal-77-qrcode*.png
+test-results/
+playwright-report/
+coverage/
+*.log
+*.har
+trace.zip
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db

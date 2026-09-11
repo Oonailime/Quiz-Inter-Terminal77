@@ -1,0 +1,21 @@
+{
+  "name": "rpa-terminal-77-inter",
+  "version": "1.0.0",
+  "description": "RPA em Playwright criado para o Quiz do Inter, desafio Terminal 77 do Banco Inter.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "setup:wsl": "bash scripts/setup-wsl-browser.sh",
+    "terminal:inspect": "node inspect-terminal.mjs",
+    "terminal:run": "node run-terminal.mjs",
+    "benchmark:terminal": "node benchmark-terminal.mjs",
+    "check": "node --check terminal-rpa.mjs && node --check terminal-answer.mjs && node --check terminal-turbo.mjs && node --check inspect-terminal.mjs && node --check run-terminal.mjs && node --check benchmark-terminal.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.62.1"
+  }
+}
