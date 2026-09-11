@@ -124,13 +124,5 @@ benchmark-terminal.mjs    valida e mede o resolvedor offline
 test/                     testes unitários e teste de integração no DOM
 scripts/                  preparação do Chromium no WSL
 docs/                     documentação técnica
-linkedin.txt              texto pronto para publicação no LinkedIn
-linkedin.rtf              versão em formato de documento para copiar/colar
 ```
 
-## Segurança do repositório
-
-O `.gitignore` impede a publicação de dependências, bibliotecas locais,
-variáveis de ambiente, chaves, logs, relatórios, capturas de tela, QR Codes e
-todos os perfis de navegador. Perfis persistentes podem conter cookies e dados
-de sessão: nunca devem ser adicionados ao Git.
